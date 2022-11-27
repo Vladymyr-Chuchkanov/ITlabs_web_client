@@ -1,0 +1,12 @@
+﻿@model ITlabs_web_client.Models.Account
+
+<div>
+    @using (Ajax.BeginForm("Table_mult", new AjaxOptions { UpdateTargetId = "results" }))
+    {
+        @Html.DropDownList("left", new SelectList(Model.tbls))
+        @Html.DropDownList("right", new SelectList(Model.tbls))
+        <input type="submit" value="Добуток" />
+    }
+    <div id="results"></div>
+</div>
+@Html.Partial("Table_mult")

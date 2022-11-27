@@ -1,0 +1,14 @@
+﻿@model ITlabs_web_client.Models.Account
+
+<p>account - @Model.login</p>
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            @Html.BeginForm("OpenDb", "Home", FormMethod.Post)
+            {  
+                @Html.DropDownList("dbs_list", new SelectList(Model.dbs))
+                <button type="submit">Відкрити</button>
+            }
+        </div>
+    </div>
+</div>

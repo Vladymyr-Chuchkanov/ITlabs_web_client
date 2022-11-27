@@ -1,0 +1,14 @@
+﻿@model ITlabs_web_client.Models.Account
+
+<h4>Account</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" action="/Home/Log_in">
+            <input type="text" name="login" />
+            <button type="submit">Увійти</button>
+        </form>
+        <textarea name="error">@Model.error</textarea>
+    </div>
+</div>
+

@@ -1,0 +1,13 @@
+﻿@model ITlabs_web_client.Models.Account
+
+<div id="searchresults">
+    <p>result mult</p>
+    
+    <ul>
+        @foreach (var item in Model.result)
+        {
+            <li>@item</li>
+        }
+    </ul>
+
+</div>
