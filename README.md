@@ -1,1 +1,1 @@
-Додаток до проекту - https://github.com/Vladymyr-Chuchkanov/ITLabs_client. Етап 20.
+Додаток до проекту - https://github.com/Vladymyr-Chuchkanov/ITLabs. Етап 20.
